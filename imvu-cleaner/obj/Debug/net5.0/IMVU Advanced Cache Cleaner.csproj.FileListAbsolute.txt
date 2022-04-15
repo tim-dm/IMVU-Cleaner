@@ -1,0 +1,15 @@
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\obj\Debug\net5.0\IMVU Advanced Cache Cleaner.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\obj\Debug\net5.0\IMVU Advanced Cache Cleaner.AssemblyInfoInputs.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\obj\Debug\net5.0\IMVU Advanced Cache Cleaner.AssemblyInfo.cs
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\obj\Debug\net5.0\IMVU Advanced Cache Cleaner.csproj.CoreCompileInputs.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\obj\Debug\net5.0\IMVU Advanced Cache Cleaner.genruntimeconfig.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\bin\Debug\net5.0\Advanced IMVU Cache Cleaner.exe
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\bin\Debug\net5.0\Advanced IMVU Cache Cleaner.deps.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\bin\Debug\net5.0\Advanced IMVU Cache Cleaner.runtimeconfig.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\bin\Debug\net5.0\Advanced IMVU Cache Cleaner.runtimeconfig.dev.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\bin\Debug\net5.0\Advanced IMVU Cache Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\bin\Debug\net5.0\ref\Advanced IMVU Cache Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\bin\Debug\net5.0\Advanced IMVU Cache Cleaner.pdb
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\obj\Debug\net5.0\Advanced IMVU Cache Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\obj\Debug\net5.0\ref\Advanced IMVU Cache Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\IMVU Advanced Cache Cleaner\IMVU Advanced Cache Cleaner\obj\Debug\net5.0\Advanced IMVU Cache Cleaner.pdb

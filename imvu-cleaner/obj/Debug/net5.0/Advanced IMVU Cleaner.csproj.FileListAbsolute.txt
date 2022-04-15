@@ -1,0 +1,5 @@
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\Advanced IMVU Cleaner\Advanced IMVU Cleaner\obj\Debug\net5.0\Advanced IMVU Cleaner.csproj.AssemblyReference.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\Advanced IMVU Cleaner\Advanced IMVU Cleaner\obj\Debug\net5.0\Advanced IMVU Cleaner.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\Advanced IMVU Cleaner\Advanced IMVU Cleaner\obj\Debug\net5.0\Advanced IMVU Cleaner.AssemblyInfoInputs.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\Advanced IMVU Cleaner\Advanced IMVU Cleaner\obj\Debug\net5.0\Advanced IMVU Cleaner.AssemblyInfo.cs
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\Advanced IMVU Cleaner\Advanced IMVU Cleaner\obj\Debug\net5.0\Advanced IMVU Cleaner.csproj.CoreCompileInputs.cache
