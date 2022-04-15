@@ -31,8 +31,8 @@ namespace IMVU_Cleaner
         {
             if (Directory.Exists(_imvuPath))
             {
-                string[] files = Directory.GetFiles(_imvuPath, "*.*")
-                    .Where(f => _extensions.Any(e => e.EndsWith(e, StringComparison.OrdinalIgnoreCase))).ToArray();
+                string[] files = Directory.GetFiles(_imvuPath)
+                    .Where(f => _extensions.Any(e => f.EndsWith(e, StringComparison.OrdinalIgnoreCase))).ToArray();
 
                 foreach (string file in files)
                 {

@@ -12,20 +12,22 @@ namespace IMVU_Cleaner
         private static string _imvuPath;
         private static string _clientPath;
 
-        private readonly List<string> _cachePaths = new()
-        {
-            Path.Join(_clientPath, @"ui\profile\Cache"),
-            Path.Join(_imvuPath, @"Cache"),
-            Path.Join(_imvuPath, @"AssetCache"),
-            Path.Join(_imvuPath, @"HttpCache"),
-            Path.Join(_imvuPath, @"PixmapCache"),
-            Path.Join(_imvuPath, @"avpics"),
-        };
+        private List<string> _cachePaths = new();
 
         public CacheCleaner(string imvuPath, string clientPath)
         {
             _imvuPath = imvuPath;
             _clientPath = clientPath;
+
+            _cachePaths = new()
+            {
+                Path.Join(_clientPath, @"ui\profile\Cache"),
+                Path.Join(_imvuPath, @"Cache"),
+                Path.Join(_imvuPath, @"AssetCache"),
+                Path.Join(_imvuPath, @"HttpCache"),
+                Path.Join(_imvuPath, @"PixmapCache"),
+                Path.Join(_imvuPath, @"avpics"),
+            };
         }
 
         public void Clean()
@@ -49,7 +51,7 @@ namespace IMVU_Cleaner
 
                 Console.WriteLine($"Cleaning {path}");
 
-                foreach (string file in GetFiles(path))
+                foreach (string file in GetFiles(path, true))
                 {
                     File.Delete(file);
                 }
@@ -73,21 +75,28 @@ namespace IMVU_Cleaner
             }
         }
 
-
         /// <summary>
         /// Grabs all the files in the specified path
         /// </summary>
         /// <param name="path">The directory to scan</param>
         /// <returns>A list of file paths</returns>
-        private static List<string> GetFiles(string path)
+        private static IEnumerable<string> GetFiles(string path, bool includeFolders = false)
         {
             List<string> buffer = new();
 
             if(Directory.Exists(path))
             {
-                foreach (string file in Directory.GetFiles(path))
+                foreach (string file in Directory.GetFiles(path, "*.*", SearchOption.AllDirectories))
                 {
                     buffer.Add(file);
+                }
+
+                if(includeFolders)
+                {
+                    foreach (string file in Directory.GetDirectories(path))
+                    {
+                        buffer.Add(file);
+                    }
                 }
             }
 

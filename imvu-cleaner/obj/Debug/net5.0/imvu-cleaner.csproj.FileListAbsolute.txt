@@ -1,0 +1,16 @@
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Debug\net5.0\IMVU Cleaner.exe
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Debug\net5.0\IMVU Cleaner.deps.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Debug\net5.0\IMVU Cleaner.runtimeconfig.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Debug\net5.0\IMVU Cleaner.runtimeconfig.dev.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Debug\net5.0\IMVU Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Debug\net5.0\ref\IMVU Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Debug\net5.0\IMVU Cleaner.pdb
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\imvu-cleaner.csproj.AssemblyReference.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\imvu-cleaner.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\imvu-cleaner.AssemblyInfoInputs.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\imvu-cleaner.AssemblyInfo.cs
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\imvu-cleaner.csproj.CoreCompileInputs.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\IMVU Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\ref\IMVU Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\IMVU Cleaner.pdb
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Debug\net5.0\imvu-cleaner.genruntimeconfig.cache

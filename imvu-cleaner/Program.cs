@@ -11,6 +11,7 @@ namespace IMVU_Cleaner
         private static readonly string _clientPath = Path.Join(_appData, @"\IMVUClient\");
 
         private static bool _idle = true;
+        private static bool _exit = false;
         private static readonly List<ICleaner> _cleaners = new();
 
         static void Main(string[] args)
@@ -45,34 +46,51 @@ namespace IMVU_Cleaner
                             break;
                         case 4:
                             _idle = false;
+                            _exit = true;
                             break;
                     }
                 }
             }
 
-            Console.Clear();
-
-            foreach (ICleaner cleaner in _cleaners)
+            if(!_exit)
             {
-                cleaner.Clean();
-            }
+                Console.Clear();
 
-            //Console.ReadLine();
-            DisplayExitScreen();
+                try
+                {
+                    foreach (ICleaner cleaner in _cleaners)
+                    {
+                        cleaner.Clean();
+                    }
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.ReadLine();
+                }
+
+                //Console.ReadLine();
+                DisplayExitScreen();
+            }
         }
 
         private static void DisplayMenu()
         {
             Console.Clear();
-            Console.WriteLine("╔==============================================╗");
-            Console.WriteLine("║      Advanced IMVU Cleaner by Dataminer      ║");
-            Console.WriteLine("║                                              ║");
-            Console.WriteLine("║             1.Delete Client Cache            ║");
-            Console.WriteLine("║             2.Delete Client Logs             ║");
-            Console.WriteLine("║             3.Delete All                     ║");
-            Console.WriteLine("║             4.Exit                           ║");
-            Console.WriteLine("║                                              ║");
-            Console.WriteLine("╚==============================================╝");
+            Console.WriteLine("╔====================================================╗");
+            Console.WriteLine("║        Advanced IMVU Cleaner by Dataminer          ║");
+            Console.WriteLine("║        ----------------------------------          ║");
+            Console.WriteLine("║          Please make sure IMVU is closed           ║");
+            Console.WriteLine("║                                                    ║");
+            Console.WriteLine("║  Please selection an option from the menu below    ║");
+            Console.WriteLine("║       by pressing a number on your keyboard        ║");
+            Console.WriteLine("║                                                    ║");
+            Console.WriteLine("║             1. Delete Client Cache                 ║");
+            Console.WriteLine("║             2. Delete Client Logs                  ║");
+            Console.WriteLine("║             3. Delete All                          ║");
+            Console.WriteLine("║             4. Exit                                ║");
+            Console.WriteLine("║                                                    ║");
+            Console.WriteLine("╚====================================================╝");
         }
 
         private static void DisplayExitScreen()
