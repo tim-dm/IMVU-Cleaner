@@ -7,11 +7,11 @@ IMVU Cleaner is a utility for cleaning common IMVU related folders.
 
 - Classic Client Cache Cleaning
 
-      Deletes all of the IMVU classic client cache files
+      Deletes all of the classic client's cache files
 
       Over time the classic client can become slow as the cache builds up to several 
-      hundred megabytes or a few gigabytes. This can causes it to take longer to load the 
-      user's inventory, the shop and many other places depending on the user's hardware.
+      hundred megabytes or a few gigabytes. This can cause it to take longer to load the 
+      user's inventory, the shop and other places depending on the user's hardware.
       
 - Classic Client Log Cleaning
 
