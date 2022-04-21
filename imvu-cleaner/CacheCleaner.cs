@@ -12,7 +12,7 @@ namespace IMVU_Cleaner
         private static string _imvuPath;
         private static string _clientPath;
 
-        private List<string> _cachePaths = new();
+        private readonly List<string> _cachePaths = new();
 
         public CacheCleaner(string imvuPath, string clientPath)
         {
@@ -53,13 +53,20 @@ namespace IMVU_Cleaner
 
                 foreach (string file in GetFiles(path, true))
                 {
-                    File.Delete(file);
+                    if(Directory.Exists(file))
+                    {
+                        Directory.Delete(file, true);
+                    } 
+                    else
+                    {
+                        File.Delete(file);
+                    }
                 }
             }
         }
 
         /// <summary>
-        /// Deletes the .cache files and the inventory databade cache file from the IMVU folder
+        /// Deletes the .cache files and the inventory database cache file from the IMVU folder
         /// </summary>
         private static void CleanFiles()
         {
