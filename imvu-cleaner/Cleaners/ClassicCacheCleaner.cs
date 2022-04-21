@@ -110,10 +110,10 @@ namespace IMVU_Cleaner
             return buffer;
         }
 
-        private static void DisplayTitle()
+        private void DisplayTitle()
         {
             Console.WriteLine("╔==============================================╗");
-            Console.WriteLine("║           Cleaning your IMVU Cache           ║");
+            Console.WriteLine("║       Cleaning The Classic Client Cache      ║");
             Console.WriteLine("╚==============================================╝");
         }
     }

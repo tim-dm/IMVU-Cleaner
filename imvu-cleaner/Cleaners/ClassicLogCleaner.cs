@@ -29,6 +29,8 @@ namespace IMVU_Cleaner
 
         public void Clean()
         {
+            DisplayTitle();
+
             if (Directory.Exists(_imvuPath))
             {
                 string[] files = Directory.GetFiles(_imvuPath)
@@ -36,9 +38,17 @@ namespace IMVU_Cleaner
 
                 foreach (string file in files)
                 {
+                    Console.WriteLine($"Deleting {Path.GetFileName(file)}");
                     File.Delete(file);
                 }
             }
+        }
+
+        private static void DisplayTitle()
+        {
+            Console.WriteLine("╔==============================================╗");
+            Console.WriteLine("║       Cleaning The Classic Client Logs       ║");
+            Console.WriteLine("╚==============================================╝");
         }
     }
 }

@@ -127,7 +127,6 @@ namespace IMVU_Cleaner
 
         private static void DisplayExitScreen()
         {
-            Console.Clear();
             WriteLineColored(ConsoleColor.Green, "╔==============================================╗");
             WriteLineColored(ConsoleColor.Green, "║                                              ║");
             WriteLineColored(ConsoleColor.Green, "║                  COMPLETED                   ║");
