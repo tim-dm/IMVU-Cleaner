@@ -51,7 +51,7 @@ namespace IMVU_Cleaner
 
                 Console.WriteLine($"Cleaning {path}");
 
-                foreach (string file in GetFiles(path, true))
+                foreach (string file in FileUtils.GetFiles(path, true))
                 {
                     if(Directory.Exists(file))
                     {
@@ -81,35 +81,7 @@ namespace IMVU_Cleaner
                 }
             }
         }
-
-        /// <summary>
-        /// Grabs all the files in the specified path
-        /// </summary>
-        /// <param name="path">The directory to scan</param>
-        /// <returns>A list of file paths</returns>
-        private static IEnumerable<string> GetFiles(string path, bool includeFolders = false)
-        {
-            List<string> buffer = new();
-
-            if(Directory.Exists(path))
-            {
-                foreach (string file in Directory.GetFiles(path, "*.*", SearchOption.AllDirectories))
-                {
-                    buffer.Add(file);
-                }
-
-                if(includeFolders)
-                {
-                    foreach (string file in Directory.GetDirectories(path))
-                    {
-                        buffer.Add(file);
-                    }
-                }
-            }
-
-            return buffer;
-        }
-
+                
         private void DisplayTitle()
         {
             Console.WriteLine("╔==============================================╗");
