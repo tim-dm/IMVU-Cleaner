@@ -23,7 +23,7 @@ IMVU Cleaner is a utility for cleaning common IMVU related folders.
 
 - Project Files Cleaning
 
-      Deletes project files
+      Deletes the files and folders in the project files directories
       
       When creating a product in Create Mode or IMVU Studio, the assets for the product get saved in the respective project folder. Assests includes textures,
       animations, poses, meshes, music, etc. 
