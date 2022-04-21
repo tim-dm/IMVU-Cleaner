@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace IMVU_Cleaner
 {
-    public class CacheCleaner : ICleaner
+    public class ClassicCacheCleaner : ICleaner
     {
         private static string _imvuPath;
         private static string _clientPath;
 
         private readonly List<string> _cachePaths = new();
 
-        public CacheCleaner(string imvuPath, string clientPath)
+        public ClassicCacheCleaner(string imvuPath, string clientPath)
         {
             _imvuPath = imvuPath;
             _clientPath = clientPath;

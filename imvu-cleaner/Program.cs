@@ -6,8 +6,8 @@ namespace IMVU_Cleaner
 {
     public enum MenuOptions
     {
-        ClientCache =  1,
-        ClientLogs =  2,
+        ClassicClientCache =  1,
+        ClassicClientLogs =  2,
         All =  3,
         Exit =  4,
     }
@@ -61,19 +61,21 @@ namespace IMVU_Cleaner
                 {
                     switch (number)
                     {
-                        case (int)MenuOptions.ClientCache:
-                            _cleaners.Add(new CacheCleaner(_imvuPath, _clientPath));
+                        case (int)MenuOptions.ClassicClientCache:
+                            _cleaners.Add(new ClassicCacheCleaner(_imvuPath, _clientPath));
                             _idle = false;
                             break;
 
-                        case (int)MenuOptions.ClientLogs:                            
-                            _cleaners.Add(new LogCleaner(_imvuPath));
+                        case (int)MenuOptions.ClassicClientLogs:                            
+                            _cleaners.Add(new ClassicLogCleaner(_imvuPath));
                             _idle = false;
                             break;
+
                         case (int)MenuOptions.All:                            
-                            _cleaners.Add(new CacheCleaner(_imvuPath, _clientPath));
-                            _cleaners.Add(new LogCleaner(_imvuPath));
+                            _cleaners.Add(new ClassicCacheCleaner(_imvuPath, _clientPath));
+                            _cleaners.Add(new ClassicLogCleaner(_imvuPath));
                             break;
+
                         case (int)MenuOptions.Exit:
                             _idle = false;
                             _exit = true;

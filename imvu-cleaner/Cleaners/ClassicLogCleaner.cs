@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace IMVU_Cleaner
 {
-    public class LogCleaner : ICleaner
+    public class ClassicLogCleaner : ICleaner
     {
         private readonly string _imvuPath;
 
@@ -22,7 +22,7 @@ namespace IMVU_Cleaner
             ".6"
         };
 
-        public LogCleaner(string imvuPath)
+        public ClassicLogCleaner(string imvuPath)
         {
             _imvuPath = imvuPath;
         }
