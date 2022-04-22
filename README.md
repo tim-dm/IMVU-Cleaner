@@ -2,6 +2,8 @@
 
 IMVU Cleaner is a utility for cleaning common IMVU related folders. 
 
+![](https://raw.githubusercontent.com/tim-dm/imvu-cleaner/main/preview.png)
+
 
 ### Features 
 
