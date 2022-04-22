@@ -8,8 +8,9 @@ namespace IMVU_Cleaner
     {
         ClassicClientCache =  1,
         ClassicClientLogs =  2,
-        All =  3,
-        Exit =  4,
+        ProjectFiles =  3,
+        All =  4,
+        Exit =  5,
     }
 
     class Program
@@ -46,6 +47,8 @@ namespace IMVU_Cleaner
 
         static void Main(string[] args)
         {
+            Console.Title = "IMVU Cleaner v1.0 by Datamine";
+
             DisplayMenu();
 
             while (_idle)
@@ -71,9 +74,15 @@ namespace IMVU_Cleaner
                             _idle = false;
                             break;
 
+                        case (int)MenuOptions.ProjectFiles:
+                            _cleaners.Add(new ProjectCleaner());
+                            _idle = false;
+                            break;
+
                         case (int)MenuOptions.All:                            
                             _cleaners.Add(new ClassicCacheCleaner(_imvuPath, _clientPath));
                             _cleaners.Add(new ClassicLogCleaner(_imvuPath));
+                            _cleaners.Add(new ProjectCleaner());
                             break;
 
                         case (int)MenuOptions.Exit:
@@ -119,8 +128,9 @@ namespace IMVU_Cleaner
             WriteLineColored(ConsoleColor.Cyan, "║                                                    ║");
             WriteLineColored(ConsoleColor.Cyan, "║             1. Delete Client Cache                 ║");
             WriteLineColored(ConsoleColor.Cyan, "║             2. Delete Client Logs                  ║");
-            WriteLineColored(ConsoleColor.Cyan, "║             3. Delete All                          ║");
-            WriteLineColored(ConsoleColor.Cyan, "║             4. Exit                                ║");
+            WriteLineColored(ConsoleColor.Cyan, "║             3. Project Files                       ║");
+            WriteLineColored(ConsoleColor.Cyan, "║             4. Delete All                          ║");
+            WriteLineColored(ConsoleColor.Cyan, "║             5. Exit                                ║");
             WriteLineColored(ConsoleColor.Cyan, "║                                                    ║");
             WriteLineColored(ConsoleColor.Cyan, "╚====================================================╝");
         }

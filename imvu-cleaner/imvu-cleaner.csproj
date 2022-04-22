@@ -5,6 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>IMVU_Cleaner</RootNamespace>
     <AssemblyName>IMVU Cleaner</AssemblyName>
+    <Authors>Dataminer</Authors>
+    <Company>IMVUMafias</Company>
+    <Description>A utility for cleaning common IMVU related folders.</Description>
+    <Copyright>IMVUMafias 2022</Copyright>
   </PropertyGroup>
 
 </Project>

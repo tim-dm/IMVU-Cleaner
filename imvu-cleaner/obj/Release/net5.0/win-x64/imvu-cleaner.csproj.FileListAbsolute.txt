@@ -1,0 +1,15 @@
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\win-x64\IMVU Cleaner.exe
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\win-x64\IMVU Cleaner.deps.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\win-x64\IMVU Cleaner.runtimeconfig.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\win-x64\IMVU Cleaner.runtimeconfig.dev.json
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\win-x64\IMVU Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\win-x64\ref\IMVU Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\win-x64\IMVU Cleaner.pdb
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Release\net5.0\win-x64\imvu-cleaner.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Release\net5.0\win-x64\imvu-cleaner.AssemblyInfoInputs.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Release\net5.0\win-x64\imvu-cleaner.AssemblyInfo.cs
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Release\net5.0\win-x64\imvu-cleaner.csproj.CoreCompileInputs.cache
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Release\net5.0\win-x64\IMVU Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Release\net5.0\win-x64\ref\IMVU Cleaner.dll
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Release\net5.0\win-x64\IMVU Cleaner.pdb
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\obj\Release\net5.0\win-x64\imvu-cleaner.genruntimeconfig.cache

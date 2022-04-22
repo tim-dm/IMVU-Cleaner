@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("IMVUMafias")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("IMVUMafias 2022")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A utility for cleaning common IMVU related folders.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

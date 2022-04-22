@@ -1,0 +1,2 @@
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\publish\IMVU Cleaner.pdb
+F:\dev\code\dotnet\c#\vs solutions\.net 5\apps\imvu\freeware\imvu-cleaner\imvu-cleaner\bin\Release\net5.0\publish\IMVU Cleaner.exe

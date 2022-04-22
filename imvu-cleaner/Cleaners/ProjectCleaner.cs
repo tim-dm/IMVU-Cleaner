@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IMVU_Cleaner.Cleaners
+namespace IMVU_Cleaner
 {
     public class ProjectCleaner : ICleaner
     {
@@ -29,13 +29,12 @@ namespace IMVU_Cleaner.Cleaners
 
         public void Clean()
         {
-            DisplayTitle();
-
             if (!Confirm())
             {
-                Console.WriteLine("You canceled this cleaner");
                 return;
             }
+
+            DisplayTitle();
 
             foreach (string path in _projectPaths)
             {
@@ -44,7 +43,19 @@ namespace IMVU_Cleaner.Cleaners
                     continue;
                 }
 
-
+                foreach (string file in FileUtils.GetFiles(path, true))
+                {
+                    if (Directory.Exists(file))
+                    {
+                        Console.WriteLine($"Deleting {Path.GetDirectoryName(file)}");
+                        Directory.Delete(file, true);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Deleting {Path.GetFileName(file)}");
+                        File.Delete(file);
+                    }
+                }
             }
         }
 
@@ -69,14 +80,14 @@ namespace IMVU_Cleaner.Cleaners
             return false;
         }
 
-        private void DisplayTitle()
+        private static void DisplayTitle()
         {
             Console.WriteLine("╔==============================================╗");
             Console.WriteLine("║             Cleaning Project Files           ║");
             Console.WriteLine("╚==============================================╝");
         }
 
-        private void DisplayConfirmation()
+        private static void DisplayConfirmation()
         {
             Console.WriteLine("╔======================================================================================╗");
             Console.WriteLine("║                                        WARNING!                                      ║");
