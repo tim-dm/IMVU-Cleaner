@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IMVU_Cleaner
 {
-    interface ICleaner
+    public interface ICleaner
     {
         void Clean();
     }
