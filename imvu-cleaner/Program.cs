@@ -19,14 +19,14 @@ namespace IMVU_Cleaner
             {
                 option = menu.GetSelectedOption();
             }
-            while (option == MenuOption.Empty);
-
-            Console.WriteLine(option);    
+            while (option == MenuOption.Empty); 
 
             if (option == MenuOption.Exit)
             {
                 Environment.Exit(0);
             }
+
+            Console.Clear();
 
             foreach (ICleaner cleaner in CleanerManager.GetCleaners(option))
             {

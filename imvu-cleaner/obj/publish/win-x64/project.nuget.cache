@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VHxu0Vu7ec++XGso1rV9YlRPPMCifOkpamosvpqlXLcAaTgJ+V2qb8iFR8oyuTlBkXrFSd1s3ch3bp4k95FqGQ==",
+  "dgSpecHash": "fiB/wOhvihG2NC9b1MD+YJ6LxFKUiCy9TZKarb6EKWViq9eBEMaV3LoSq+i7EJbi609gJZtHT+ahs/AbsZGDBA==",
   "success": true,
-  "projectFilePath": "F:\\dev\\code\\dotnet\\c#\\vs solutions\\.net 5\\apps\\imvu\\freeware\\imvu-cleaner\\imvu-cleaner\\imvu-cleaner.csproj",
+  "projectFilePath": "F:\\dev\\code\\dotnet\\c#\\vs solutions\\.net 6\\apps\\imvu\\freeware\\imvu-cleaner\\imvu-cleaner\\imvu-cleaner.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

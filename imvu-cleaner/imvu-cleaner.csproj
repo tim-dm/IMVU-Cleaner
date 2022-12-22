@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>IMVU_Cleaner</RootNamespace>
     <AssemblyName>IMVU Cleaner</AssemblyName>
     <Authors>Dataminer</Authors>
